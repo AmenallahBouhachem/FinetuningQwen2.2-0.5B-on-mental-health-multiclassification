@@ -1,0 +1,13 @@
+Accuracy (on classified samples): 0.2137 / f1 : 0.2358
+
+after finetuning :
+
+Validation Accuracy: 0.7203
+F1 Score (weighted): 0.7245
+
+model size = 0.9892 GB
+
+-------------------------------------------------------------------
+full model : 64% 0.9892 GB
+int8 Qunatazied with half precision : 63.71% 0.9892 GB
+int4 : 52.86%
